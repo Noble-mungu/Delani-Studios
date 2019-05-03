@@ -6,7 +6,8 @@ body{
     height:400px;  
 }
 #logo{
-    text-align: center;
+    text-align-last: center;
+
 }
 .banner1,.banner2 { 
     text-align: center;
@@ -21,7 +22,7 @@ body{
 }
 .s_image{
     background-image: url("../images/assets/backgrounds/s_image.jpg");
-    height:200px;
+    height:300px;
     font-display: 
 }
 .banner2-1,.banner2-2 {
@@ -29,12 +30,27 @@ body{
     color: white;
 
 }
-.what-we-do{
+.What-we-do{
+    display: inline;
     text-align: center;
 }
-#design_icon{
-    float: left;
+.we-do{
+    text-align: center;
 }
+
+#design_icon{
+    display: inline;
+    float: inline-start;
+}
+#dev_icon{
+    display: inline;
+    
+}
+#prd_icon{
+    display: inline;
+    float: inline-end;
+}
+
 
 
 
