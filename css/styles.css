@@ -15,10 +15,11 @@ body{
 }
 .About{
     text-align: center;
+    height: 300px;
 }
 .s_image{
     background-image: url("../images/assets/backgrounds/s_image.jpg");
-    height:400px;
+    height:200px;
 }
 .banner2-1,.banner2-2 {text-align: center; 
 }
