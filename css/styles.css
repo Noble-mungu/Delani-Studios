@@ -1,3 +1,7 @@
-.jumbotron{
-    background-image: url("..images/assets/backgrounds/h_img.jpg")
+body{
+    margin: auto;
+}
+.h_image{
+    background-image: url("../images/assets/backgrounds/h_img.jpg");
+    height:400px;  
 }
