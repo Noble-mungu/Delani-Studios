@@ -5,3 +5,22 @@ body{
     background-image: url("../images/assets/backgrounds/h_img.jpg");
     height:400px;  
 }
+#logo{
+    text-align: center;
+}
+.banner1,.banner2 { text-align: center;
+}
+#logo{
+    text-align: center;
+}
+.about{
+    h2{
+        text-align; center;
+    }
+    p{
+        text-align; center;
+    }
+}
+.s_image{
+    background-image: url("../images/assets/backgrounds/.s_image");
+}
