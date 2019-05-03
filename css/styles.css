@@ -1,6 +1,7 @@
+
 body{
     margin: auto;
-    display: -moz-box;
+    box-sizing: border-box;
 }
 .h_image{
     background-image: url("../images/assets/backgrounds/h_img.jpg");
@@ -78,20 +79,36 @@ body{
     padding-right: 150px;
     padding-left: 150px;
 }
-.row1{
-    padding: inherit;
-   display: inline-table;
-}
+ .row1{
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px, 70px, 50px, 70px;
+    border: 20px, 30px, 20px, 30px;
+    margin: 20px;
+      
+} 
+
 .PortF1{
     padding: 20px, 20px, 20px, 20px;
 }
-.col-sm-3{
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-     
+ .col-sm-3{
+    display: inline;
+    width: 33.33%;
+    padding: 10px,10px, 10px, 10px;
+    
 }
+.row2{
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px, 70px, 50px, 70px;
+    border: 20px, 30px, 20px,30px;
+    margin: 20px;
+}
+
+
+    
+     
+
 
 
 
