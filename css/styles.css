@@ -5,7 +5,7 @@ body{
 }
 .h_image{
     background-image: url("../images/assets/backgrounds/h_img.jpg");
-    height:400px; 
+    height:500px; 
      
 }
 #logo{
@@ -18,6 +18,9 @@ body{
 }
 #logo{
     text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .About{
     text-align: center;
@@ -103,6 +106,15 @@ body{
     padding: 50px, 70px, 50px, 70px;
     border: 20px, 30px, 20px,30px;
     margin: 20px;
+}
+.contact_us{
+    background-image: url("../images/assets/backgrounds/c_image.jpg");
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+.social_icons{
+    text-align: center;
 }
 
 
