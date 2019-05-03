@@ -13,14 +13,14 @@ body{
 #logo{
     text-align: center;
 }
-.about{
-    h2{
-        text-align; center;
-    }
-    p{
-        text-align; center;
-    }
+.About{
+    text-align: center;
 }
 .s_image{
-    background-image: url("../images/assets/backgrounds/.s_image");
+    background-image: url("../images/assets/backgrounds/s_image.jpg");
+    height:400px;
 }
+.banner2-1,.banner2-2 {text-align: center; 
+}
+
+
