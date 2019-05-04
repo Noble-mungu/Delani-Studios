@@ -121,6 +121,15 @@ body{
 .container .box:hover .icon .hov{
     font-size: 40px;
 }
+.container .box .par{
+    position: absolute;
+    top: 120px;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
 /* .design{
     display: inline;
     float: inline-start;
