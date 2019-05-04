@@ -109,7 +109,18 @@ body{
     height: 80px;
     border-radius: 50%;
 }
-.container .ho
+.container .box .icon .hov {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-box: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: azure;
+}
+.container .box:hover .icon .hov{
+    font-size: 40px;
+}
 /* .design{
     display: inline;
     float: inline-start;
