@@ -108,6 +108,15 @@ body{
 .container .box .icon .btn_3{
     background: rgba(0, 0, 0, 0);
 }
+.container .box p.par_1{
+    display: none;
+}
+.container .box p.par_2{
+    display: none;
+}
+.container .box p.par_3{
+    display: none;
+}
 
 .container{
     position: relative;
@@ -161,6 +170,10 @@ form{
 }
 .txtb{
     background: rgba(0, 0, 0, 0);
+}
+.contact_us .txtb label, input, textarea{
+    display: inline-block;
+
 }
 
 
