@@ -62,10 +62,10 @@ body{
 }
 .we-do{
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    /* padding-bottom: 50px;
     padding-right: 50px;
-    padding-left: 50px;
+    padding-left: 50px; */
 }
 .PortF1{
     text-align: center;
@@ -84,6 +84,7 @@ body{
 }
 .container .box {
     position: relative;
+    display: block;
     width: calc(400px - 60px);
     height: calc(300px - 80px);
     float: left;
@@ -93,6 +94,9 @@ body{
     border-radius: 10px;
 }
 .container .box .icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
     height: 40%;
     transition: 0.5s;
@@ -108,14 +112,17 @@ body{
 .container .box .icon .btn_3{
     background: rgba(0, 0, 0, 0);
 }
-.container .box p.par_1{
-    display: none;
+.container .box .par_1{
+    display: none; 
+    font-size: 15px;
 }
-.container .box p.par_2{
+.container .box .par_2{
     display: none;
+    font-size: 15px;
 }
-.container .box p.par_3{
+.container .box .par_3{
     display: none;
+    font-size: 15px;
 }
 
 .container{
@@ -125,7 +132,7 @@ body{
 }
 
 .Portfolio{
-    padding: 60px;
+    padding: 20px;
     text-align: center;
 }
  .row1{
@@ -145,6 +152,7 @@ body{
     display: inline;
     width: 33.33%;
     padding: 10px;
+    transition: 0.5s;
     
 }
 .row2{
@@ -155,6 +163,20 @@ body{
     margin: 20px;
     text-align: justify;
 }
+.col-sm-3:hover{
+    background-size: 
+}
+.col-sm-3:after{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    content:attr(data-text);
+    transition: 0.5s;
+}
+.col-sm-3:hover:after{
+    opacity: 1;
+}
+
 .contact_us{
     background-image: url("../images/assets/backgrounds/c_image.jpg");
     height: 450px;
