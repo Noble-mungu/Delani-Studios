@@ -8,6 +8,8 @@
     
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 
     <title>Delani Studios</title>
 </head>
@@ -40,32 +42,32 @@
                             <div class="box">
                                     <div class="design">
                                             <div class="icon">
-                                                <div class="hov"><img src="images/assets/services_icons/design_icon.png" alt="design_icon">
-                                                </div>
-                                                <h3>Design</h3>
+                                                <button class="btn_1"><img src="images/assets/services_icons/design_icon.png" alt="design_icon">
+                                                </button>
+                                                <h4>Design</h4>
                                             </div>
-                                            <p class="par">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+                                            <p class="par_1">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
                                         </div>
                             </div>
                             <div class="box">
                                     <div class="dev">
                                             <div class="icon">
-                                                <div class="hov"><img src="images/assets/services_icons/dev_icon.png" alt="development">
-                                                </div>
-                                                <h3>Development</h3>
+                                                <button class="btn_2"><img src="images/assets/services_icons/dev_icon.png" alt="development">
+                                                </button>
+                                                <h4>Development</h4>
                                             </div>
                                             <div class="col"></div>
-                                            <p class="par">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                                            <p class="par_2">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
                                     </div>   
                             </div>
                             <div class="box">
                                 <div class="prd">
                                         <div class="icon">
-                                            <div class="hov"><img src="images/assets/services_icons/product_icon.png" alt="product">
-                                            </div>
-                                            <h3>Production Management</h3>
+                                            <button class="btn_3"><img src="images/assets/services_icons/product_icon.png" alt="product">
+                                            </button>
+                                            <h5>Production Management</h5>
                                         </div> 
-                                        <p class="par">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
+                                        <p class="par_3">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
                                 </div>
                             </div>
                                 
@@ -114,19 +116,28 @@
                     </div>
             
                 </div>
-                <div class="contact_us">
-                    <h2>CONTACT US</h2>
-                    <form action="">
-                        <label for="name">Name</label>
-                        <input id= "name" type="text">
-                        <label for="email">Email</label>
-                        <input id="email" type="text">
-                    </form>
-                    <form action="">
-                        <label for="message">Type message here...</label>
-                        <input id="message-text" type="text">
-                    </form>
-                </div>
+                <form action="">
+                        <div class="contact_us">
+                                <h2>CONTACT US</h2>
+                                <div class="txtb">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="" value="" placeholder="Enter Your Name">
+                                </div>
+                                <div class="txtb">
+                                        <label for="name">Email</label>
+                                        <input type="email" class="email" name="" value="" placeholder="Enter Your Email Here">
+                                </div>
+                                <div class="txtb1">
+                                            <label for="name">Message</label>
+                                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </div> 
+                                <button type="submit">Send</button>
+                                 
+                                
+                            
+                        </div> 
+                </form>
+                
                 <div class="social_icons">
                     <img src="images/assets/social_icons/twitter.png" alt="">
                     <img src="images/assets/social_icons/dribble.png" alt="">
@@ -140,7 +151,6 @@
                 </div>
     </div>
     
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>   
+      
 </body>
 </html>

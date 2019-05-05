@@ -75,9 +75,10 @@ body{
     padding-left: 20px;
 }
 .container{
-    position: relative;
+    text-align: center;
+    position: center;
     width: 1200px;
-    height: 300px;
+    height: 280px;
     margin: 300px, auto;
     background: white;
 }
@@ -87,106 +88,32 @@ body{
     height: calc(300px - 80px);
     float: left;
     margin: 15px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     overflow: hidden;
     border-radius: 10px;
 }
 .container .box .icon{
-    position: absolute;
-    top: 0;
-    left 0;
-    width: 50%;
-    height: 50%;
-    background: white;
+    width: 30%;
+    height: 40%;
     transition: 0.5s;
-    z-index: 1;
+    background: rgba(0, 0, 0, 0);
+}
+.container .box .icon .btn_1{
+    background: rgba(0, 0, 0, 0);
+    float: inherit;
+}
+.container .box .icon .btn_2{
+    background: rgba(0, 0, 0, 0);
+}
+.container .box .icon .btn_3{
+    background: rgba(0, 0, 0, 0);
 }
 
-.container .box:hover .icon{
-    top: 20px;
-    left: calc(50% - 40%);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    opacity: 0;
-}
-.container .box .icon .hov {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-box: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.5s;
-    color: azure;
-}
-.container .box:hover .icon .hov{
-    font-size: 40px;
-}
-.container .box .par{
-    position: absolute;
-    top: 100%;
-    height: calc(100% -100%);
-    text-align: center;
+.container{
+    position: relative;
+    text-align: left;
     box-sizing: border-box;
-    transition: 0.5s;
-
 }
-.container .box:hover .par{
-    top: 100px;
-}
-.container .box .par p{
-    margin: 0;
-    padding: 0;
-}
-/* .design{
-    display: inline;
-    float: inline-start;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 150px;
-    padding-left: 150px;
-}
-.dev{
-    display: inline;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 150px;
-    padding-left: 150px;  
-}
-.prd{
-    display: inline;
-    float: inline-end;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 150px;
-    padding-left: 150px;  
-} */
-
-/* #design_icon{
-    display: inline;
-    float: inline-start;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 150px;
-    padding-left: 150px;
-}
-#dev_icon{
-    display: inline;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 150px;
-    padding-left: 150px;
-    
-}
-#prd_icon{
-    display: inline;
-    float: inline-end;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 150px;
-    padding-left: 150px;
-} */
-
 
 .Portfolio{
     padding: 60px;
@@ -221,12 +148,19 @@ body{
 }
 .contact_us{
     background-image: url("../images/assets/backgrounds/c_image.jpg");
-    height: 400px;
+    height: 450px;
     text-align: center;
     color: white;
 }
+form{
+    background: rgba(0, 0, 0, 0);
+}
 .social_icons{
     text-align: center;
+    padding: 20px;
+}
+.txtb{
+    background: rgba(0, 0, 0, 0);
 }
 
 
