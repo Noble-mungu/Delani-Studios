@@ -10,7 +10,7 @@ One should open the live site and interact with the webpage. Should be able to h
 the icons and hover over the portfolio area.
 
 ## Live link
-Here is the live link
+Here is the live link https://vivvianne.github.io/Delani-Studios/
 
 ## Behavior Driven Development
 | Our Program should handle                       | Input example | Output example                                   |
