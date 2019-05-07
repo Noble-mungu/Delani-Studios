@@ -27,22 +27,22 @@ $(document).ready(function(){
      }); 
   });
 
-$(document).ready(function(){
-    $(".form").submit(function(){
-        var name = document.getElementById('inputName'),
-        var email = document.getElementById('inputEmail'),
-        var message = document.getElementById('inputMessage');
+// $(document).ready(function(){
+//     $(".form").submit(function(){
+//         var name = document.getElementById('inputName'),
+//         var email = document.getElementById('inputEmail'),
+//         var message = document.getElementById('inputMessage');
 
-        if (!name.value || !email.value || !message.value){
-            alertify.error('Please check your entries')
-        } else{
-            event.preventDefault()
-            $(this).get(0).reset()
-            alert("successful submission")
-        }
+//         if (!name.value || !email.value || !message.value){
+//             alertify.error('Please check your entries')
+//         } else{
+//             event.preventDefault()
+//             $(this).get(0).reset()
+//             alert("successful submission")
+//         }
        
-    });
-});
+//     });
+// });
 
 
 // function for the email validation
