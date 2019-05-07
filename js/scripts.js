@@ -1,3 +1,5 @@
+// function for the email validation
+
 //  $(document).ready(function(){
 //          $(".submit").click(fuction(){
 //                    event.preventDefault();
@@ -53,4 +55,9 @@ $(document).ready(function(){
      }); 
   });
 
-  
+$(document).ready(function(){
+    $(".form").submit(function(){
+        event.preventDefault()
+        alert("successful submission")
+    })
+})
