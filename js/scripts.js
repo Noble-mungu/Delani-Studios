@@ -42,6 +42,11 @@ $(document).ready(function(){
         }
        
     });
+    $(".col-sm-3 .box").hide(500);
+    $(".col-sm-3").hover(function(){
+        $(this).children(".col-sm-3 .box").toggle(500);
+    });
+
 });
 
 
