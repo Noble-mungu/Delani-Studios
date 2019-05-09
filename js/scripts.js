@@ -1,3 +1,4 @@
+
 //function to toggle between the icons and the text
 $(document).ready(function(){
     
@@ -26,20 +27,22 @@ $(document).ready(function(){
          $("p.par_3").hide();
      }); 
   });
+ 
 
 $(document).ready(function(){
-    $(".form").submit(function(){
-        var name = $(document).getElementById('inputName');
-        var email = $(document).getElementById('inputEmail');
-        var message = $(document).getElementById('inputMessage');
-
-        if (!name.value || !email.value || !message.value){
-            alert('Please check your entries')
-        } else{
-            event.preventDefault()
-            $(this).get(0).reset()
-            alert("successful submission")
-        }
+    $("form").submit(function(){
+        event.preventDefault();
+            var name = $('#inputName').val;
+            var email = $('#inputEmail').val;
+            var message = $('#inputMessage').val
+          if (!name.value || !email.value || !message.value){
+              alert('Please check your entries');
+          } else{
+              event.preventDefault();
+              $(this).get(0).reset();
+              alert("successful submission");
+          }
+        //  alert("submition");
        
     });
     $(".col-sm-3 .box").hide(500);
@@ -57,10 +60,10 @@ $(document).ready(function(){
 //                    event.preventDefault();
 //                    console.log("Clicked button");
         
-//                    var email = $(".email").val();
-//                    var name = $(".name").val();
-//                    var message = $(".message").val();
-//                    Var statusElm = $(".status");
+//                    var email = $("email").val();
+//                    var name = $("name").val();
+//                    var message = $("message").val();
+//                    Var statusElm = $("status");
         
 //                    if(email.length > 5 && email.include("@") && email.include("."){
 //                        console.log("Email is valid");
